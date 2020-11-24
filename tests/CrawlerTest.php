@@ -14,8 +14,8 @@ class CrawlerTest extends \PHPUnit_Framework_TestCase
     {
         $craw = new Crawler;
         $craw->testPuppeteer();
-        // $this->assertFileExists('/foo/bar.pdf'); ????
-        $this->assertFileExists('/path/to/file');
+        $this->assertFileExists('/foo/bar.pdf');
+        // $this->assertFileExists('/path/to/file');
     }
 
 }
