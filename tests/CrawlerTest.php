@@ -12,11 +12,10 @@ class CrawlerTest extends \PHPUnit_Framework_TestCase
 
     public function testPup()
     {
-        $craw = new Crawler();
-        $this->assertTrue($craw INSTANCEOF Crawler);
+        $craw = new Crawler;
         $craw->testPuppeteer();
-        $abla = file_exists('example.png');
-        $this->assertTrue($abla);
+        // $this->assertFileExists('/foo/bar.pdf'); ????
+        $this->assertFileExists('/path/to/file');
     }
 
 }

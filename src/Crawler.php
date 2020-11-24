@@ -21,7 +21,7 @@ class Crawler
     {
         
 
-        $browserFactory = new BrowserFactory();
+        $browserFactory = new BrowserFactory('C:\Program Files (x86)\Google\Chrome\Application\chrome.exe');
     
         // starts headless chrome
         $browser = $browserFactory->createBrowser();

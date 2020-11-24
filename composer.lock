@@ -740,22 +740,32 @@
         },
         {
             "name": "wrench/wrench",
-            "version": "v2.0.1",
+            "version": "v2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/varspool/Wrench.git",
-                "reference": "03d1f1dc012687eea9bfcaebbf16300bda001a22"
+                "reference": "db89efbece7e8b7649e3bdd01f8133d2812163f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/varspool/Wrench/zipball/03d1f1dc012687eea9bfcaebbf16300bda001a22",
-                "reference": "03d1f1dc012687eea9bfcaebbf16300bda001a22",
+                "url": "https://api.github.com/repos/varspool/Wrench/zipball/db89efbece7e8b7649e3bdd01f8133d2812163f1",
+                "reference": "db89efbece7e8b7649e3bdd01f8133d2812163f1",
                 "shasum": ""
             },
             "require": {
+                "ext-sockets": "*",
                 "php": ">=5.3"
             },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0",
+                "squizlabs/php_codesniffer": "*"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Wrench": "lib/"
@@ -791,9 +801,9 @@
             ],
             "support": {
                 "issues": "https://github.com/varspool/Wrench/issues",
-                "source": "https://github.com/varspool/Wrench/tree/master"
+                "source": "https://github.com/varspool/Wrench/tree/v2.0.11"
             },
-            "time": "2013-06-15T14:49:42+00:00"
+            "time": "2020-06-09T13:10:49+00:00"
         }
     ],
     "packages-dev": [
